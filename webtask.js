@@ -1,6 +1,6 @@
 var azure = require('azure')
 
-module.exports = function (context, callback) {
+return function (context, callback) {
     var serviceBusService = azure.createServiceBusService('Endpoint=sb://moswald.servicebus.windows.net/;SharedAccessKeyName=WebTaskSender;SharedAccessKey=VsxilpfsoGvh8L+n7VPQZwbCw07PV5FEyjo9uK8vEHg=;');
 
     var msg = {
