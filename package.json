@@ -5,16 +5,10 @@
   "main": "webtask.js",
   "author": "Matt Oswald <m@oswald.io>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/moswald/TestingWebHooks/"
-  },
   "bugs": {
     "url": "https://github.com/moswald/TestingWebHooks/issues"
   },
-  "dependencies": {
-      "azure": "*"
-  },
+  "homepage": "https://github.com/moswald/TestingWebHooks/",
   "devDependencies": {
     "babel": "^5.8.20",
     "mongodb": "^2.0.39",
